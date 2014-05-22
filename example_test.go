@@ -2,6 +2,7 @@
 package go_sandbox_test
 
 import "fmt"
+import "math"
 
 func ExampleHelloworld() {
 	fmt.Println("hello world")
