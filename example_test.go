@@ -9,10 +9,5 @@ func ExampleHelloworld() {
 }
 
 func ExampleArange(start, stop, step float64) []float64 {
-    N := int(math.Ceil((stop - start) / step))
-    rnge := make([]float64, N)
-    for x := range rnge {
-        rnge[x] = start + step*float64(x)
-    }
-    return rnge
+	fmt.Println(arange(0., 10., 0.5))
 }
