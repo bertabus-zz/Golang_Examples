@@ -1,7 +1,7 @@
 package go_sandbox
 
 import "math"
-impotr "fmt"
+import "fmt"
 
 //simple helloworld
 func Helloworld() {
