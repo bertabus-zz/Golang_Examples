@@ -8,7 +8,7 @@ func ExampleHelloworld() {
 	fmt.Println("hello world")
 }
 
-func Arange(start, stop, step float64) []float64 {
+func ExampleArange(start, stop, step float64) []float64 {
     N := int(math.Ceil((stop - start) / step))
     rnge := make([]float64, N)
     for x := range rnge {
