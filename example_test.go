@@ -10,5 +10,5 @@ func ExampleHelloworld() {
 }
 
 func ExampleArange(start, stop, step float64) []float64 {
-	fmt.Println(Arange(0., 10., 0.5))
+	fmt.Println(go_sandbox.Arange(0., 10., 0.5))
 }
